@@ -1,2 +1,2 @@
 # Currently available
-* ##Fastfetch
+* Fastfetch
