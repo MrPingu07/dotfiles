@@ -1,0 +1,4 @@
+//.bleshrc
+ble-face command_file="fg=cyan"
+ble-face syntax_command="fg=blue"
+ble-face vbell_erase="fg=black"
