@@ -1,4 +1,4 @@
-# Currently available
+# Available
 * Fastfetch
 * Bash
 * Ble.sh
