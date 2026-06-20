@@ -2,3 +2,4 @@
 * Fastfetch
 * Bash
 * Ble.sh
+* Kitty
