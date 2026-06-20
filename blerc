@@ -1,4 +1,6 @@
 ble-face command_file="fg=cyan"
+ble-face argument_option="fg=magenta, bold"
 ble-face syntax_command="fg=13"
 ble-face vbell_erase="fg=black"
-ble-face auto_complete="fg=57, bg=0"
+ble-face auto_complete="fg=245, bg=0"
+ble-face filename_directory="fg=147, underline"

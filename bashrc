@@ -8,7 +8,11 @@
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-PS1='[\u@\h \W]\$ '
+
+RESET=$(tput sgr0)
+PURPLE=$(tput setaf 5)
+CYAN_BOLD=$(tput bold; tput setaf 6)
+PS1="\[${PURPLE}\][\[${CYAN_BOLD}\]\u\[${RESET}\]\[${PURPLE}\]@\[${CYAN_BOLD}\]\h \[${PURPLE}\]\W]\$\[${RESET}\] "
 
 fastfetch
 [[ ${BLE_VERSION-} ]] && ble-attach
