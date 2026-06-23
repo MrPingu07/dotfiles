@@ -6,6 +6,7 @@
 [[ $- == *i* ]] && source /usr/share/blesh/ble.sh --noattach
 [[ $- != *i* ]] && return
 
+alias sudo='doas'
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
