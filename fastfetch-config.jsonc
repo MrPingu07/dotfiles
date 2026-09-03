@@ -203,6 +203,15 @@
       }
     },
     {
+      "type": "swap",
+      "keyIcon": "",
+      "percent": {
+        "green": 50,
+        "yellow": 80,
+        "type": 0
+    }
+    },
+    {
       "type": "disk",
       "keyIcon": "",
       "showRegular": true,
