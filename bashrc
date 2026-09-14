@@ -7,6 +7,7 @@
 [[ $- != *i* ]] && return
 
 alias sudo='doas'
+alias kdeplasma='dbus-run-session startplasma-wayland'
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
@@ -15,5 +16,6 @@ PURPLE=$(tput setaf 5)
 CYAN_BOLD=$(tput bold; tput setaf 6)
 PS1="\[${PURPLE}\][\[${CYAN_BOLD}\]\u\[${RESET}\]\[${PURPLE}\]@\[${CYAN_BOLD}\]\h \[${PURPLE}\]\W]\$\[${RESET}\] "
 
+clear
 fastfetch
 [[ ${BLE_VERSION-} ]] && ble-attach
