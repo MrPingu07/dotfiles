@@ -6,6 +6,7 @@
 [[ $- == *i* ]] && source /usr/share/blesh/ble.sh --noattach
 [[ $- != *i* ]] && return
 
+alias bash='exec bash'
 alias sudo='doas'
 alias kdeplasma='dbus-run-session startplasma-wayland'
 alias ls='ls --color=auto'
